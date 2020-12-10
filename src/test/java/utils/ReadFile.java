@@ -11,8 +11,7 @@ public class ReadFile {
         try {
             return Files.lines(Paths.get(path))
                     .filter(Objects::nonNull)
-                    .map(String::trim)
-                    .filter(s -> !s.isBlank());
+                    .map(String::trim);
         } catch (IOException e) {
             return Stream.empty();
         }

@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-10T14:30:49.007Z",
+        "line": 13,
+        "name": "Should count the number of valid passports",
+        "description": "",
+        "id": "day4;should-count-the-number-of-valid-passports;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 665000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"src/test/resources/features/day4/data/scenario1.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day4/data/scenario1.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:25)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4826000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have \"byr,iyr,eyr,hgt,hcl,ecl,pid\" and \"cid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"byr,iyr,eyr,hgt,hcl,ecl,pid\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"cid\"",
+                  "offset": 41
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:41)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:51)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T14:30:49.021Z",
+        "line": 14,
+        "name": "Should count the number of valid passports",
+        "description": "",
+        "id": "day4;should-count-the-number-of-valid-passports;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1811000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"src/test/resources/features/day4/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day4/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:25)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4311000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have \"byr,iyr,eyr,hgt,hcl,ecl,pid\" and \"cid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"byr,iyr,eyr,hgt,hcl,ecl,pid\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"cid\"",
+                  "offset": 41
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:41)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 219",
+            "match": {
+              "arguments": [
+                {
+                  "val": "219",
+                  "offset": 21
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:51)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Day4",
+    "description": "    As a elf\n    I want to count the valid passports\n    So that I can see how many passports are valid",
+    "id": "day4",
+    "keyword": "Feature",
+    "uri": "classpath:features/day4/day4.feature",
+    "tags": []
+  }
+]
