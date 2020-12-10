@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-12-07T09:45:41.041Z",
+        "start_timestamp": "2020-12-10T00:52:08.996Z",
         "line": 13,
         "name": "Multiply the 2 number that sum up to 2020",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7510000,
+              "duration": 5396000,
               "status": "passed"
             },
             "line": 7,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 630000,
+              "duration": 574000,
               "status": "passed"
             },
             "line": 8,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 1284000,
+              "duration": 1083000,
               "status": "passed"
             },
             "line": 9,
@@ -68,7 +68,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-07T09:45:41.122Z",
+        "start_timestamp": "2020-12-10T00:52:09.067Z",
         "line": 14,
         "name": "Multiply the 2 number that sum up to 2020",
         "description": "",
@@ -78,7 +78,7 @@
         "steps": [
           {
             "result": {
-              "duration": 980000,
+              "duration": 836000,
               "status": "passed"
             },
             "line": 7,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 142000,
+              "duration": 137000,
               "status": "passed"
             },
             "line": 8,
@@ -114,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 81000,
+              "duration": 62000,
               "status": "passed"
             },
             "line": 9,
@@ -133,7 +133,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-07T09:45:41.130Z",
+        "start_timestamp": "2020-12-10T00:52:09.074Z",
         "line": 23,
         "name": "Multiply the 3 number that sum up to 2020",
         "description": "",
@@ -143,7 +143,7 @@
         "steps": [
           {
             "result": {
-              "duration": 350000,
+              "duration": 776000,
               "status": "passed"
             },
             "line": 17,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 595000,
+              "duration": 704000,
               "status": "passed"
             },
             "line": 18,
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 86000,
+              "duration": 102000,
               "status": "passed"
             },
             "line": 19,
@@ -198,7 +198,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-07T09:45:41.138Z",
+        "start_timestamp": "2020-12-10T00:52:09.083Z",
         "line": 24,
         "name": "Multiply the 3 number that sum up to 2020",
         "description": "",
@@ -208,7 +208,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2357000,
+              "duration": 826000,
               "status": "passed"
             },
             "line": 17,
@@ -226,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 3321000,
+              "duration": 3558000,
               "status": "passed"
             },
             "line": 18,
@@ -244,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 138000,
+              "duration": 127000,
               "status": "passed"
             },
             "line": 19,

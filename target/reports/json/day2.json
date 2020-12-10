@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-12-10T00:46:01.560Z",
+        "start_timestamp": "2020-12-10T00:52:09.123Z",
         "line": 13,
         "name": "Should exclude invalid passwords",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4860000,
+              "duration": 377000,
               "status": "passed"
             },
             "line": 7,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 9971000,
+              "duration": 8279000,
               "status": "passed"
             },
             "line": 8,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 1633000,
+              "duration": 106000,
               "status": "passed"
             },
             "line": 9,
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-10T00:46:01.637Z",
+        "start_timestamp": "2020-12-10T00:52:09.140Z",
         "line": 14,
         "name": "Should exclude invalid passwords",
         "description": "",
@@ -72,7 +72,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3098000,
+              "duration": 1832000,
               "status": "passed"
             },
             "line": 7,
@@ -90,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 17561000,
+              "duration": 15199000,
               "status": "passed"
             },
             "line": 8,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 114000,
+              "duration": 221000,
               "status": "passed"
             },
             "line": 9,
@@ -121,7 +121,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-10T00:46:01.664Z",
+        "start_timestamp": "2020-12-10T00:52:09.164Z",
         "line": 23,
         "name": "Should exclude invalid passwords",
         "description": "",
@@ -131,7 +131,7 @@
         "steps": [
           {
             "result": {
-              "duration": 491000,
+              "duration": 507000,
               "status": "passed"
             },
             "line": 17,
@@ -149,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 650000,
+              "duration": 880000,
               "status": "passed"
             },
             "line": 18,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 114000,
+              "duration": 134000,
               "status": "passed"
             },
             "line": 19,
@@ -180,7 +180,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-10T00:46:01.671Z",
+        "start_timestamp": "2020-12-10T00:52:09.169Z",
         "line": 24,
         "name": "Should exclude invalid passwords",
         "description": "",
@@ -190,7 +190,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1033000,
+              "duration": 2092000,
               "status": "passed"
             },
             "line": 17,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 2706000,
+              "duration": 3064000,
               "status": "passed"
             },
             "line": 18,
@@ -220,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 191000,
+              "duration": 178000,
               "status": "passed"
             },
             "line": 19,

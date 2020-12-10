@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-10T01:54:21.174Z",
+        "line": 14,
+        "name": "Should count the number of trees in path",
+        "description": "",
+        "id": "day3;should-count-the-number-of-trees-in-path;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6512000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"src/test/resources/features/day3/data/scenario1.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day3/data/scenario1.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day3.Day3Step.\u003cinit\u003e(Day3Step.java:21)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I start at 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 11
+                }
+              ],
+              "location": "day3.Day3Step.\u003cinit\u003e(Day3Step.java:25)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 532000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "move 3 left and 1 down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 5
+                },
+                {
+                  "val": "1",
+                  "offset": 16
+                }
+              ],
+              "location": "day3.Day3Step.\u003cinit\u003e(Day3Step.java:27)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 942000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the result should be 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 21
+                }
+              ],
+              "location": "day3.Day3Step.\u003cinit\u003e(Day3Step.java:31)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-10T01:54:21.240Z",
+        "line": 15,
+        "name": "Should count the number of trees in path",
+        "description": "",
+        "id": "day3;should-count-the-number-of-trees-in-path;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1548000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"src/test/resources/features/day3/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day3/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day3.Day3Step.\u003cinit\u003e(Day3Step.java:21)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I start at 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 11
+                }
+              ],
+              "location": "day3.Day3Step.\u003cinit\u003e(Day3Step.java:25)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "move 3 left and 1 down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 5
+                },
+                {
+                  "val": "1",
+                  "offset": 16
+                }
+              ],
+              "location": "day3.Day3Step.\u003cinit\u003e(Day3Step.java:27)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the result should be 193",
+            "match": {
+              "arguments": [
+                {
+                  "val": "193",
+                  "offset": 21
+                }
+              ],
+              "location": "day3.Day3Step.\u003cinit\u003e(Day3Step.java:31)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Day3",
+    "description": "    As a elf\n    I want to count the trees in path\n    So that I can count them",
+    "id": "day3",
+    "keyword": "Feature",
+    "uri": "classpath:features/day3/day3.feature",
+    "tags": []
+  }
+]
