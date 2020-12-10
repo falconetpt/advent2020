@@ -17,4 +17,11 @@ public class Day3 {
         return result;
     }
 
+    public int countChoppedTrees(final List<String> values, final int start, final List<Point> points) {
+        return points.stream().parallel()
+                .map(p -> countChoppedTrees(values, start, p))
+                .reduce((a, b) -> a * b)
+                .orElse(0);
+    }
+
 }
