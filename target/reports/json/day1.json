@@ -1,0 +1,273 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-07T09:45:41.041Z",
+        "line": 13,
+        "name": "Multiply the 2 number that sum up to 2020",
+        "description": "",
+        "id": "day1;multiply-the-2-number-that-sum-up-to-2020;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7510000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"src/test/resources/features/day1/data/scenario1.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day1/data/scenario1.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:18)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 630000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I add 2 numbers to obtain the output 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020",
+                  "offset": 37
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:22)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1284000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 514579",
+            "match": {
+              "arguments": [
+                {
+                  "val": "514579",
+                  "offset": 21
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:28)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-07T09:45:41.122Z",
+        "line": 14,
+        "name": "Multiply the 2 number that sum up to 2020",
+        "description": "",
+        "id": "day1;multiply-the-2-number-that-sum-up-to-2020;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 980000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"src/test/resources/features/day1/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day1/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:18)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I add 2 numbers to obtain the output 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020",
+                  "offset": 37
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:22)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 482811",
+            "match": {
+              "arguments": [
+                {
+                  "val": "482811",
+                  "offset": 21
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:28)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-07T09:45:41.130Z",
+        "line": 23,
+        "name": "Multiply the 3 number that sum up to 2020",
+        "description": "",
+        "id": "day1;multiply-the-3-number-that-sum-up-to-2020;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 350000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have a \"src/test/resources/features/day1/data/scenario1.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day1/data/scenario1.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:18)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 595000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I add 3 numbers to obtain the output 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020",
+                  "offset": 37
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:25)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the result should be 241861950",
+            "match": {
+              "arguments": [
+                {
+                  "val": "241861950",
+                  "offset": 21
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:28)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-07T09:45:41.138Z",
+        "line": 24,
+        "name": "Multiply the 3 number that sum up to 2020",
+        "description": "",
+        "id": "day1;multiply-the-3-number-that-sum-up-to-2020;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2357000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have a \"src/test/resources/features/day1/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day1/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:18)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3321000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I add 3 numbers to obtain the output 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020",
+                  "offset": 37
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:25)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the result should be 193171814",
+            "match": {
+              "arguments": [
+                {
+                  "val": "193171814",
+                  "offset": 21
+                }
+              ],
+              "location": "day1.Day1Step.\u003cinit\u003e(Day1Step.java:28)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Day1",
+    "description": "    As a elf\n    I want to identify the N numbers tha sum up to 2020\n    So that I can multiply them",
+    "id": "day1",
+    "keyword": "Feature",
+    "uri": "classpath:features/day1/day1.feature",
+    "tags": []
+  }
+]
