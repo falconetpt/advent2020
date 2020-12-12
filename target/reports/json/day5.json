@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-12T00:11:58.887Z",
+        "line": 13,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day5;should-return-the-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2285000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"BFFFBBFRRR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BFFFBBFRRR\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day5.Day5Step.\u003cinit\u003e(Day5Step.java:21)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I calculate the seat id",
+            "match": {
+              "location": "day5.Day5Step.\u003cinit\u003e(Day5Step.java:25)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c567\u003e but was:\u003c0\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat day5.Day5Step.lambda$new$2(Day5Step.java:29)\n\tat ✽.the result should be 567(classpath:features/day5/day5.feature:9)\n",
+              "duration": 1773000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the result should be 567",
+            "match": {
+              "arguments": [
+                {
+                  "val": "567",
+                  "offset": 21
+                }
+              ],
+              "location": "day5.Day5Step.\u003cinit\u003e(Day5Step.java:29)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-12T00:11:58.956Z",
+        "line": 14,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day5;should-return-the-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 110000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"FFFBBBFRRR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FFFBBBFRRR\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day5.Day5Step.\u003cinit\u003e(Day5Step.java:21)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I calculate the seat id",
+            "match": {
+              "location": "day5.Day5Step.\u003cinit\u003e(Day5Step.java:25)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c119\u003e but was:\u003c0\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat day5.Day5Step.lambda$new$2(Day5Step.java:29)\n\tat ✽.the result should be 119(classpath:features/day5/day5.feature:9)\n",
+              "duration": 417000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the result should be 119",
+            "match": {
+              "arguments": [
+                {
+                  "val": "119",
+                  "offset": 21
+                }
+              ],
+              "location": "day5.Day5Step.\u003cinit\u003e(Day5Step.java:29)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-12T00:11:58.963Z",
+        "line": 15,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day5;should-return-the-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 88000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"BBFFBBFRLL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BBFFBBFRLL\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day5.Day5Step.\u003cinit\u003e(Day5Step.java:21)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I calculate the seat id",
+            "match": {
+              "location": "day5.Day5Step.\u003cinit\u003e(Day5Step.java:25)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c820\u003e but was:\u003c0\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat day5.Day5Step.lambda$new$2(Day5Step.java:29)\n\tat ✽.the result should be 820(classpath:features/day5/day5.feature:9)\n",
+              "duration": 299000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the result should be 820",
+            "match": {
+              "arguments": [
+                {
+                  "val": "820",
+                  "offset": 21
+                }
+              ],
+              "location": "day5.Day5Step.\u003cinit\u003e(Day5Step.java:29)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Day5",
+    "description": "    As a elf\n    I want to know the id of my seat\n    So that I can see the largest seat",
+    "id": "day5",
+    "keyword": "Feature",
+    "uri": "classpath:features/day5/day5.feature",
+    "tags": []
+  }
+]

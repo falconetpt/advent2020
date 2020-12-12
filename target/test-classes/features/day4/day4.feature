@@ -22,4 +22,4 @@ Feature: Day4
             | file                                                                      | mandatoryFields               | optionalFields    | result    |
             | "src/test/resources/features/day4/data/scenario3_invalid_passport.txt"    | "byr,iyr,eyr,hgt,hcl,ecl,pid" | "cid"             | 0         |
             | "src/test/resources/features/day4/data/scenario4_valid_passport.txt"      | "byr,iyr,eyr,hgt,hcl,ecl,pid" | "cid"             | 4         |
-            | "src/test/resources/features/day4/data/scenario2.txt"                     | "byr,iyr,eyr,hgt,hcl,ecl,pid" | "cid"             | 0         |
+            | "src/test/resources/features/day4/data/scenario2.txt"                     | "byr,iyr,eyr,hgt,hcl,ecl,pid" | "cid"             | 127       |
