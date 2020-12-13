@@ -1,12 +1,27 @@
 package advent.day5;
 
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Day5 {
     public int calculateMaxSeatId(final List<String> values) {
         return values.stream()
                 .map(this::calculateSeatId)
                 .max(Integer::compareTo)
+                .orElse(0);
+    }
+
+    public int calculateSeatId(final List<String> values) {
+        Set<Integer> foundSeats = values.stream()
+                .map(this::calculateSeatId)
+                .collect(Collectors.toSet());
+
+        return IntStream.range(0, 127 * 8 + 7)
+                .filter(i -> !foundSeats.contains(i))
+                .filter(i -> foundSeats.contains(i - 1) && foundSeats.contains(i + 1))
+                .findFirst()
                 .orElse(0);
     }
 

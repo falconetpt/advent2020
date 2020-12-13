@@ -38,6 +38,10 @@ public class Day5Step implements En {
             result = new Day5().calculateMaxSeatId(values);
         });
 
+        When("I calculate the missing seat id", () -> {
+            result = new Day5().calculateSeatId(values);
+        });
+
         Then("the result should be {int}", (a) -> assertEquals(a, result) );
     }
 }

@@ -17,12 +17,11 @@ Feature: Day5
 
     Scenario Outline: Should return the max id
         Given I load a <file>
-        When I calculate the max seat id
+        When I calculate the missing seat id
         Then the result should be <result>
 
         Examples:
         | file                                                      | result    |
-        | "src/test/resources/features/day5/data/scenario1.txt"     | 820       |
-        | "src/test/resources/features/day5/data/scenario2.txt"     | 858       |
+        | "src/test/resources/features/day5/data/scenario2.txt"     | 557       |
 
 
