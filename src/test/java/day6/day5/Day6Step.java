@@ -1,46 +1,47 @@
-package day5;
+package day6.day5;
 
-import advent.day4.Day4;
 import advent.day5.Day5;
-import io.cucumber.java8.Da;
+import advent.day6.Day6;
 import io.cucumber.java8.En;
 import utils.ReadFile;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static org.junit.Assert.assertEquals;
 
 
-public class Day5Step implements En {
-    private String value;
+public class Day6Step implements En {
     private List<String> values;
+    private List<List<String>> valuesList;
     private int result;
 
-    public Day5Step() {
-        Given("I have a {string}", (String string) -> {
-            value = string;
+    public Day6Step() {
+        Given("I have {string}", (String string) -> values = Arrays.asList(string.split(",")));
+        Given("I have a {string}", (String file) -> {
+            final List<String> readLines = ReadFile.readFile(file).collect(Collectors.toList());
+            valuesList = new ArrayList<>();
+            List<String> listToAdd = new ArrayList<>();
+
+            for (final String s : readLines) {
+                if (s.isEmpty()) {
+                    valuesList.add(listToAdd);
+                    listToAdd = new ArrayList<>();
+                } else {
+                    listToAdd.add(s);
+                }
+            }
+
+            valuesList.add(listToAdd);
         });
 
-        Given("I load a {string}", (String string) -> {
-            values = ReadFile.readFile(string)
-                    .collect(Collectors.toList());
-        });
-
-        When("I calculate the seat id", () -> {
-            result = new Day5().calculateSeatId(value);
-        });
-
-        When("I calculate the max seat id", () -> {
-            result = new Day5().calculateMaxSeatId(values);
-        });
-
-        When("I calculate the missing seat id", () -> {
-            result = new Day5().calculateSeatId(values);
-        });
+        When("I calculate the answers", () -> result = new Day6().calculateAnswers(values));
+        When("I calculate the answers with all", () -> result = new Day6().calculateAllAnswers(values));
+        When("I calculate the sum of all the answers", () -> result = new Day6().calculateTotalAllAnswers(valuesList));
+        When("I calculate the sum of the answers", () -> result = new Day6().calculateTotalAnswers(valuesList));
 
         Then("the result should be {int}", (a) -> assertEquals(a, result) );
     }
