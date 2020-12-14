@@ -1,4 +1,4 @@
-package day6.day5;
+package day6;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;

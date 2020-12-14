@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"classpath:features/day6/day6.feature"},
-        glue = "day6",
-        plugin = {"pretty", "json:target/reports/json/day6.json"}
+        features = {"classpath:features/day7/day7.feature"},
+        glue = "day7",
+        plugin = {"pretty", "json:target/reports/json/day7.json"}
 )
-public class Day6Test {
+public class Day7Test {
 }

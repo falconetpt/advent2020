@@ -1,4 +1,4 @@
-package day6.day5;
+package day6;
 
 import advent.day5.Day5;
 import advent.day6.Day6;
