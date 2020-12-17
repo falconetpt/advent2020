@@ -1,0 +1,250 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-17T16:26:26.541Z",
+        "line": 13,
+        "name": "Should return the value of the accumulator",
+        "description": "",
+        "id": "day8;should-return-the-value-of-the-accumulator;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8585000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"src/test/resources/features/day8/data/scenario1.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day8/data/scenario1.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:21)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 526000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I calculate the value of accumulator",
+            "match": {
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:26)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1493000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 21
+                }
+              ],
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:32)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-17T16:26:26.622Z",
+        "line": 14,
+        "name": "Should return the value of the accumulator",
+        "description": "",
+        "id": "day8;should-return-the-value-of-the-accumulator;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3717000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a \"src/test/resources/features/day8/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day8/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:21)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I calculate the value of accumulator",
+            "match": {
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:26)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 1723",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1723",
+                  "offset": 21
+                }
+              ],
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:32)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-17T16:26:26.631Z",
+        "line": 23,
+        "name": "Should return the value of the accumulator",
+        "description": "",
+        "id": "day8;should-return-the-value-of-the-accumulator;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 428000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have a \"src/test/resources/features/day8/data/scenario1.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day8/data/scenario1.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:21)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2702000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I calculate the value of accumulator with nop and jmp swapped",
+            "match": {
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:28)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the result should be 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 21
+                }
+              ],
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:32)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-17T16:26:26.638Z",
+        "line": 24,
+        "name": "Should return the value of the accumulator",
+        "description": "",
+        "id": "day8;should-return-the-value-of-the-accumulator;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2064000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have a \"src/test/resources/features/day8/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day8/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:21)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16026000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I calculate the value of accumulator with nop and jmp swapped",
+            "match": {
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:28)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c1723\u003e but was:\u003c846\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat day8.Day8Step.lambda$new$3(Day8Step.java:32)\n\tat ✽.the result should be 1723(classpath:features/day8/day8.feature:19)\n",
+              "duration": 1538000,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "the result should be 1723",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1723",
+                  "offset": 21
+                }
+              ],
+              "location": "day8.Day8Step.\u003cinit\u003e(Day8Step.java:32)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Day8",
+    "description": "    As a elf\n    I want to know the value of the accumulator\n    So that I can know how much power i have",
+    "id": "day8",
+    "keyword": "Feature",
+    "uri": "classpath:features/day8/day8.feature",
+    "tags": []
+  }
+]

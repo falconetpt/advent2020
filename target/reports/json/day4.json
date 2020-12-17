@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-12-10T14:30:49.007Z",
+        "start_timestamp": "2020-12-14T23:19:28.102Z",
         "line": 13,
         "name": "Should count the number of valid passports",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 665000,
+              "duration": 1088000,
               "status": "passed"
             },
             "line": 7,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 4826000,
+              "duration": 2835000,
               "status": "passed"
             },
             "line": 8,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 199000,
+              "duration": 120000,
               "status": "passed"
             },
             "line": 9,
@@ -65,14 +65,14 @@
                   "offset": 21
                 }
               ],
-              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:51)"
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:59)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-10T14:30:49.021Z",
+        "start_timestamp": "2020-12-14T23:19:28.114Z",
         "line": 14,
         "name": "Should count the number of valid passports",
         "description": "",
@@ -82,7 +82,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1811000,
+              "duration": 7316000,
               "status": "passed"
             },
             "line": 7,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 4311000,
+              "duration": 5944000,
               "status": "passed"
             },
             "line": 8,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 117000,
+              "duration": 102000,
               "status": "passed"
             },
             "line": 9,
@@ -134,7 +134,214 @@
                   "offset": 21
                 }
               ],
-              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:51)"
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:59)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.140Z",
+        "line": 23,
+        "name": "Should count the number of valid passports",
+        "description": "",
+        "id": "day4;should-count-the-number-of-valid-passports;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 780000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have a \"src/test/resources/features/day4/data/scenario3_invalid_passport.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day4/data/scenario3_invalid_passport.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:25)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6001000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have \"byr,iyr,eyr,hgt,hcl,ecl,pid\" and \"cid\" with validation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"byr,iyr,eyr,hgt,hcl,ecl,pid\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"cid\"",
+                  "offset": 41
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:50)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the result should be 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 21
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:59)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.153Z",
+        "line": 24,
+        "name": "Should count the number of valid passports",
+        "description": "",
+        "id": "day4;should-count-the-number-of-valid-passports;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 906000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have a \"src/test/resources/features/day4/data/scenario4_valid_passport.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day4/data/scenario4_valid_passport.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:25)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 581000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have \"byr,iyr,eyr,hgt,hcl,ecl,pid\" and \"cid\" with validation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"byr,iyr,eyr,hgt,hcl,ecl,pid\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"cid\"",
+                  "offset": 41
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:50)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the result should be 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 21
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:59)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.162Z",
+        "line": 25,
+        "name": "Should count the number of valid passports",
+        "description": "",
+        "id": "day4;should-count-the-number-of-valid-passports;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2828000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I have a \"src/test/resources/features/day4/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day4/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:25)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13878000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have \"byr,iyr,eyr,hgt,hcl,ecl,pid\" and \"cid\" with validation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"byr,iyr,eyr,hgt,hcl,ecl,pid\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"cid\"",
+                  "offset": 41
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:50)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the result should be 127",
+            "match": {
+              "arguments": [
+                {
+                  "val": "127",
+                  "offset": 21
+                }
+              ],
+              "location": "day4.Day4Step.\u003cinit\u003e(Day4Step.java:59)"
             },
             "keyword": "Then "
           }

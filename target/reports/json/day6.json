@@ -1,0 +1,721 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-14T23:19:28.274Z",
+        "line": 13,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day6;should-return-the-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 170000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have \"abcx,abcy,abcz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcx,abcy,abcz\"",
+                  "offset": 7
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:23)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2860000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I calculate the answers",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:41)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.292Z",
+        "line": 14,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day6;should-return-the-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 336000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have \"a,a,a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a,a,a\"",
+                  "offset": 7
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:23)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I calculate the answers",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:41)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 358000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.300Z",
+        "line": 15,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day6;should-return-the-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 291000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have \",,\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\",,\"",
+                  "offset": 7
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:23)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I calculate the answers",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:41)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.315Z",
+        "line": 16,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day6;should-return-the-id;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have \"a,b,c\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a,b,c\"",
+                  "offset": 7
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:23)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I calculate the answers",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:41)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the result should be 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.319Z",
+        "line": 25,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day6;should-return-the-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 123000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I have \"abcx,abcy,abcz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcx,abcy,abcz\"",
+                  "offset": 7
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:23)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2467000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I calculate the answers with all",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:42)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2223000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the result should be 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.331Z",
+        "line": 26,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day6;should-return-the-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 89000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I have \"a,a,a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a,a,a\"",
+                  "offset": 7
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:23)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I calculate the answers with all",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:42)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the result should be 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.334Z",
+        "line": 27,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day6;should-return-the-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 280000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I have \",,\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\",,\"",
+                  "offset": 7
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:23)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 353000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I calculate the answers with all",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:42)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the result should be 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.339Z",
+        "line": 28,
+        "name": "Should return the id",
+        "description": "",
+        "id": "day6;should-return-the-id;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 123000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I have \"a,b,c\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a,b,c\"",
+                  "offset": 7
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:23)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I calculate the answers with all",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:42)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the result should be 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.345Z",
+        "line": 38,
+        "name": "Should return the sum of answers",
+        "description": "",
+        "id": "day6;should-return-the-sum-of-answers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4739000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I have a \"src/test/resources/features/day6/data/scenario1.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day6/data/scenario1.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:24)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2924000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I calculate the sum of the answers",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:44)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the result should be 11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.358Z",
+        "line": 39,
+        "name": "Should return the sum of answers",
+        "description": "",
+        "id": "day6;should-return-the-sum-of-answers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3579000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I have a \"src/test/resources/features/day6/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day6/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:24)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18316000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I calculate the sum of the answers",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:44)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the result should be 6291",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6291",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.388Z",
+        "line": 48,
+        "name": "Should return the sum of answers",
+        "description": "",
+        "id": "day6;should-return-the-sum-of-answers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 407000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I have a \"src/test/resources/features/day6/data/scenario1.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day6/data/scenario1.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:24)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1709000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I calculate the sum of all the answers",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:43)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 320000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the result should be 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.396Z",
+        "line": 49,
+        "name": "Should return the sum of answers",
+        "description": "",
+        "id": "day6;should-return-the-sum-of-answers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2277000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I have a \"src/test/resources/features/day6/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day6/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:24)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20124000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I calculate the sum of all the answers",
+            "match": {
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:43)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 284000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the result should be 3052",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3052",
+                  "offset": 21
+                }
+              ],
+              "location": "day6.Day6Step.\u003cinit\u003e(Day6Step.java:46)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Day6",
+    "description": "    As a elf\n    I want to know the number of answers by group\n    So that I can sum everything",
+    "id": "day6",
+    "keyword": "Feature",
+    "uri": "classpath:features/day6/day6.feature",
+    "tags": []
+  }
+]

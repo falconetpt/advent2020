@@ -3,247 +3,247 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-12-14T23:19:27.920Z",
+        "start_timestamp": "2020-12-14T23:19:28.444Z",
         "line": 13,
-        "name": "Should exclude invalid passwords",
+        "name": "Should return the shiny gold",
         "description": "",
-        "id": "day2;should-exclude-invalid-passwords;;2",
+        "id": "day7;should-return-the-shiny-gold;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 875000,
+              "duration": 432000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I have a \"src/test/resources/features/day2/data/scenario1.txt\"",
+            "name": "I have a \"src/test/resources/features/day7/data/scenario1.txt\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"src/test/resources/features/day2/data/scenario1.txt\"",
+                  "val": "\"src/test/resources/features/day7/data/scenario1.txt\"",
                   "offset": 9
                 }
               ],
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:19)"
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:18)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 11582000,
+              "duration": 22635000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I check the valid password with frequency",
+            "name": "I calculate the number of shiny gold",
             "match": {
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:23)"
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:22)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 122000,
+              "duration": 120000,
               "status": "passed"
             },
             "line": 9,
-            "name": "the result should be 2",
+            "name": "the result should be 4",
             "match": {
               "arguments": [
                 {
-                  "val": "2",
+                  "val": "4",
                   "offset": 21
                 }
               ],
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:31)"
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:28)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-14T23:19:27.940Z",
+        "start_timestamp": "2020-12-14T23:19:28.472Z",
         "line": 14,
-        "name": "Should exclude invalid passwords",
+        "name": "Should return the shiny gold",
         "description": "",
-        "id": "day2;should-exclude-invalid-passwords;;3",
+        "id": "day7;should-return-the-shiny-gold;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4173000,
+              "duration": 2965000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I have a \"src/test/resources/features/day2/data/scenario2.txt\"",
+            "name": "I have a \"src/test/resources/features/day7/data/scenario2.txt\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"src/test/resources/features/day2/data/scenario2.txt\"",
+                  "val": "\"src/test/resources/features/day7/data/scenario2.txt\"",
                   "offset": 9
                 }
               ],
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:19)"
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:18)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 29363000,
+              "duration": 202999000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I check the valid password with frequency",
+            "name": "I calculate the number of shiny gold",
             "match": {
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:23)"
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:22)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 173000,
+              "duration": 130000,
               "status": "passed"
             },
             "line": 9,
-            "name": "the result should be 542",
+            "name": "the result should be 257",
             "match": {
               "arguments": [
                 {
-                  "val": "542",
+                  "val": "257",
                   "offset": 21
                 }
               ],
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:31)"
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:28)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-14T23:19:27.986Z",
-        "line": 23,
-        "name": "Should exclude invalid passwords",
-        "description": "",
-        "id": "day2;should-exclude-invalid-passwords;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1279000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I have a \"src/test/resources/features/day2/data/scenario1.txt\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"src/test/resources/features/day2/data/scenario1.txt\"",
-                  "offset": 9
-                }
-              ],
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:19)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1121000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I check the valid password with position",
-            "match": {
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:27)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 166000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "the result should be 1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 21
-                }
-              ],
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:31)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-14T23:19:27.998Z",
+        "start_timestamp": "2020-12-14T23:19:28.682Z",
         "line": 24,
-        "name": "Should exclude invalid passwords",
+        "name": "Should return the shiny gold",
         "description": "",
-        "id": "day2;should-exclude-invalid-passwords;;3",
+        "id": "day7;should-return-the-shiny-gold;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2246000,
+              "duration": 718000,
               "status": "passed"
             },
-            "line": 17,
-            "name": "I have a \"src/test/resources/features/day2/data/scenario2.txt\"",
+            "line": 18,
+            "name": "I have a \"src/test/resources/features/day7/data/scenario3.txt\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"src/test/resources/features/day2/data/scenario2.txt\"",
+                  "val": "\"src/test/resources/features/day7/data/scenario3.txt\"",
                   "offset": 9
                 }
               ],
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:19)"
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:18)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3502000,
+              "duration": 3709000,
               "status": "passed"
             },
-            "line": 18,
-            "name": "I check the valid password with position",
+            "line": 19,
+            "name": "I calculate the number of total bags in shiny gold",
             "match": {
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:27)"
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:24)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 421000,
+              "duration": 90000,
               "status": "passed"
             },
-            "line": 19,
-            "name": "the result should be 360",
+            "line": 20,
+            "name": "the result should be 126",
             "match": {
               "arguments": [
                 {
-                  "val": "360",
+                  "val": "126",
                   "offset": 21
                 }
               ],
-              "location": "day2.Day2Step.\u003cinit\u003e(Day2Step.java:31)"
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:28)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-14T23:19:28.694Z",
+        "line": 25,
+        "name": "Should return the shiny gold",
+        "description": "",
+        "id": "day7;should-return-the-shiny-gold;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1349000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have a \"src/test/resources/features/day7/data/scenario2.txt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/features/day7/data/scenario2.txt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:18)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5970000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I calculate the number of total bags in shiny gold",
+            "match": {
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:24)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the result should be 1038",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1038",
+                  "offset": 21
+                }
+              ],
+              "location": "day7.Day7Step.\u003cinit\u003e(Day7Step.java:28)"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Day2",
-    "description": "    As a elf\n    I want to identify the valid passwords\n    So that I can count them",
-    "id": "day2",
+    "name": "Day7",
+    "description": "    As a elf\n    I want to know the number of shiny gold\n    So that I can know how many i can cary",
+    "id": "day7",
     "keyword": "Feature",
-    "uri": "classpath:features/day2/day2.feature",
+    "uri": "classpath:features/day7/day7.feature",
     "tags": []
   }
 ]
