@@ -1,4 +1,4 @@
-package day8;
+package day9;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"classpath:features/day8/day8.feature"},
-        glue = "day8",
-        plugin = {"pretty", "json:target/reports/json/day8.json"}
+        features = {"classpath:features/day9/day9.feature"},
+        glue = "day9",
+        plugin = {"pretty", "json:target/reports/json/day9.json"}
 )
-public class Day8Test {
+public class Day9Test {
 }
